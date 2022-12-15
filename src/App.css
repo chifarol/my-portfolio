@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+#root {
+  max-width: 1280px;
+
+  /* light color scheme */
+  --colors-light-primary-light-1: #ffffff;
+  --colors-light-primary-light-2: #d6e3ff;
+  --colors-light-primary-dark-1: #285ea7;
+  --colors-light-primary-dark-2: #001b3d;
+  --colors-light-secondary-light-2: #5ffbd6;
+  --colors-light-secondary-dark-1: #006b58;
+  --colors-light-secondary-dark-2: #002019;
+  --colors-light-surface-1: #fdfbff;
+  --colors-light-surface-2: #f2f3fb;
+  --colors-light-surface-3: #eceef8;
+  --colors-light-surface-4: #e6eaf5;
+  --colors-light-surface-5: #dfe5f3;
+  /* dark color scheme */
+  --colors-dark-primary-light-1: #d6e3ff;
+  --colors-dark-primary-light-2: #a9c7ff;
+  --colors-dark-primary-dark-1: #00468b;
+  --colors-dark-primary-dark-2: #003063;
+  --colors-dark-secondary-light-1: #5ffbd6;
+  --colors-dark-secondary-light-2: #38debb;
+  --colors-dark-secondary-dark-1: #005142;
+  --colors-dark-secondary-dark-2: #00382d;
+  --colors-dark-surface-1: #0b1626;
+  --colors-dark-surface-2: #131f31;
+  --colors-dark-surface-3: #182437;
+  --colors-dark-surface-4: #1c293e;
+  --colors-dark-surface-5: #212f44;
+  --colors-dark-surface-5: #212f44;
+  /* Neutrals */
+  --colors-neutral-1: #ffffff;
+  --colors-neutral-2: #e0e2ec;
+  --colors-neutral-3: #74777f;
+  --colors-neutral-4: #44474e;
+  --colors-neutral-1: #1a1b1e;
+}
+
+/* typography */
+.bold {
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Saira" sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+.type1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.type2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.type3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.type4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.type5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.type6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/*  */
+html {
+  font-family: "Saira SemiCondensed" sans-serif;
+  /* font-weight: 400; */
+}
+
+/* medium screen */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+}
+/* small screen */
+@media screen and (max-width: 480px) {
+  .bold {
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  h6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
