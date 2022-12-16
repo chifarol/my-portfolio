@@ -80,7 +80,7 @@ const Hero = () => {
             <WhatsappIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/ilodigwe-chinaza-05b435186"
+            href="https://www.linkedin.com/in/chinaza-ilodigwe-05b435186"
             target="_blank"
           >
             <LinkedInIcon />
