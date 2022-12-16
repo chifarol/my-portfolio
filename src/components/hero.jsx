@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   TwitterIcon,
   MailIcon,
@@ -7,19 +7,33 @@ import {
   GithubIcon,
 } from "./svgs";
 const titles = [
-  "Fullstack Web Developer",
-  "Front-End Developer",
-  "Back-End Developer",
-  "UI Designer",
+  "Fullstack Web \n Developer",
+  "Front-End \n Developer",
+  "Back-End \n Developer",
+  "UI \n Designer",
 ];
+let currentIndex = 0;
 const Hero = () => {
+  const [title, setTitle] = useState(titles[0]);
+  useEffect(() => {
+    setInterval(() => {
+      if (currentIndex < titles.length - 1) {
+        setTitle(titles[currentIndex + 1]);
+        currentIndex++;
+      } else {
+        setTitle(titles[0]);
+        currentIndex = 0;
+      }
+    }, 5000);
+  }, []);
+
   return (
     <div className="hero-section">
       <div className="hero-sub-1">
         <div className="hero-sub-container">
           <h4 className="hero-sub-1-intro">Hi I’m Ilodigwe Chinaza, a</h4>
           <div className="hero-sub-1-titles">
-            <h1>Fullstack Web Developer</h1>
+            <h1>{title}</h1>
           </div>
           <p className="hero-sub-1-desc type5">
             I’m a software developer with over 4 years of experience and I love
