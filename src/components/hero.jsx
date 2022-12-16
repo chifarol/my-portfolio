@@ -12,20 +12,34 @@ const titles = [
   "Back-End \n Developer",
   "UI \n Designer",
 ];
-let currentIndex = 0;
+function formatTitle(text) {
+  return text.split(/\n+/).map((title, index) => <p key={index}>{title}</p>);
+}
 const Hero = () => {
   const [title, setTitle] = useState(titles[0]);
+  const [toggleAnim, setToggleAnim] = useState(false);
   useEffect(() => {
-    setInterval(() => {
-      if (currentIndex < titles.length - 1) {
-        setTitle(titles[currentIndex + 1]);
-        currentIndex++;
-      } else {
-        setTitle(titles[0]);
+    const insertAnim = setTimeout(() => {
+      setToggleAnim(false);
+    }, 100);
+    const id = setTimeout(() => {
+      let currentIndex = titles.indexOf(title);
+      if (currentIndex === titles.length - 1) {
         currentIndex = 0;
+        setTitle(titles[0]);
+      } else {
+        setTitle(titles[currentIndex + 1]);
       }
-    }, 5000);
-  }, []);
+    }, 3000);
+    const removeAnim = setTimeout(() => {
+      setToggleAnim(true);
+    }, 2600);
+    return () => {
+      clearInterval(id);
+      clearInterval(insertAnim);
+      clearInterval(removeAnim);
+    };
+  }, [title]);
 
   return (
     <div className="hero-section">
@@ -33,7 +47,9 @@ const Hero = () => {
         <div className="hero-sub-container">
           <h4 className="hero-sub-1-intro">Hi I’m Ilodigwe Chinaza, a</h4>
           <div className="hero-sub-1-titles">
-            <h1>{title}</h1>
+            <h1 className={`hero-title ${toggleAnim && "pre-animation"}`}>
+              {formatTitle(title)}
+            </h1>
           </div>
           <p className="hero-sub-1-desc type5">
             I’m a software developer with over 4 years of experience and I love

@@ -428,6 +428,23 @@ h6 {
   gap: 32px;
   max-width: 500px;
 }
+.hero-sub-1-titles {
+  height: 112px;
+  display: flex;
+  align-items: center;
+}
+.hero-title {
+  overflow: hidden;
+}
+.hero-title {
+  height: 112px;
+  transition: all 0.5s;
+  // transition: cubic-bezier(0.075, 0.82, 0.165, 0.2);
+}
+
+.hero-title.pre-animation {
+  height: 0;
+}
 .hero-sub-container {
   display: flex;
   flex-direction: column;
@@ -472,7 +489,7 @@ h6 {
   flex-direction: column;
   gap: 32px;
 }
-.service-counter {
+.card-counter {
   display: none;
 }
 .section-divider {
@@ -658,6 +675,13 @@ footer {
     margin: 0 32px;
     margin-bottom: 32px;
   }
+  .hero-sub-1-titles {
+    height: 112px;
+    flex-direction: column;
+  }
+  .hero-title {
+    height: 112px;
+  }
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
@@ -733,6 +757,13 @@ footer {
   .hero-sub-1 {
     text-align: center;
     align-items: center;
+  }
+  .hero-sub-1-titles {
+    height: 80px;
+    flex-direction: column;
+  }
+  .hero-title {
+    height: 80px;
   }
   .hero-sub-2 {
     height: 100%;
