@@ -16,7 +16,33 @@ import { useContext } from "react";
 
 function App() {
   const { mode } = useContext(ModeContext);
+  const [sCardCounter, setSCardCounter] = useState(1);
+  const [pCardCounter, setPCardCounter] = useState(1);
 
+  function sCounterHandler(e) {
+    const width = e.target.scrollWidth - e.target.clientWidth;
+    const position = e.target.scrollLeft;
+    const percentage = Math.floor((position / width) * 5 + 1);
+    setTimeout(() => {
+      if (percentage > 5) {
+        setSCardCounter(5);
+      } else {
+        setSCardCounter(percentage);
+      }
+    }, 300);
+  }
+  function pCounterHandler(e) {
+    const width = e.target.scrollWidth - e.target.clientWidth;
+    const position = e.target.scrollLeft;
+    const percentage = Math.floor((position / width) * 9 + 1);
+    setTimeout(() => {
+      if (percentage > 9) {
+        setPCardCounter(9);
+      } else {
+        setPCardCounter(percentage);
+      }
+    }, 300);
+  }
   return (
     <div className={`app ${mode ? "light-mode" : "dark-mode"}`}>
       <Header />
@@ -26,8 +52,13 @@ function App() {
         {/* services */}
         <div className="section service-section">
           <SectionDivider title="Services" desc="Various services I offer" />
-          <div className="service-card-container">
-            <ServiceCards />
+          <div className="service-container">
+            <div className="card-counter">
+              <p>{sCardCounter}/5</p>
+            </div>
+            <div className="service-card-container" onScroll={sCounterHandler}>
+              <ServiceCards />
+            </div>
           </div>
         </div>
         {/* projects */}
@@ -36,8 +67,13 @@ function App() {
             title="Projects"
             desc="Some of the projects I’ve worked on"
           />
-          <div className="project-card-container">
-            <ProjectCards />
+          <div className="project-container">
+            <div className="card-counter">
+              <p>{pCardCounter}/9</p>
+            </div>
+            <div className="project-card-container" onScroll={pCounterHandler}>
+              <ProjectCards />
+            </div>
           </div>
         </div>
         {/* tech stacks */}

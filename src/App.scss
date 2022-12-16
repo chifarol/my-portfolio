@@ -466,6 +466,9 @@ h6 {
   flex-direction: column;
   gap: 32px;
 }
+.service-counter {
+  display: none;
+}
 .section-divider {
   display: flex;
   flex-direction: column;
@@ -742,6 +745,16 @@ footer {
     display: flex;
     overflow-x: scroll;
     padding-bottom: 24px;
+  }
+
+  .card-counter {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+  .card-counter p {
+    color: var(--colors-dark-primary-light-1);
   }
   .service-card,
   .project-card {
