@@ -6,7 +6,9 @@ export const TweeterImg = () => (
 export const ChatboxxImg = () => (
   <img src="/my-portfolio/chatboxx.jpg" alt="chatboxx screenshot" />
 );
-export const EdieImg = () => <img src="/edie.jpg" alt="edie homepage" />;
+export const EdieImg = () => (
+  <img src="/my-portfolio/edie.jpg" alt="edie homepage" />
+);
 export const WindBnBImg = () => (
   <img src="/my-portfolio/windbnb.jpg" alt="WindBnB screenshot" />
 );

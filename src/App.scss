@@ -187,6 +187,9 @@ h6 {
     color: var(--colors-dark-primary-light-1);
   }
 
+  .card-counter p {
+    color: var(--colors-dark-primary-light-1);
+  }
   .service-card {
     background-color: var(--colors-dark-surface-2);
     border-top: 4px solid var(--colors-dark-secondary-light-2);
@@ -314,6 +317,9 @@ h6 {
     color: var(--colors-neutral-4);
   }
 
+  .card-counter p {
+    color: var(--colors-neutral-4);
+  }
   .service-card {
     background-color: var(--colors-light-surface-4);
     border-top: 4px solid var(--colors-light-primary-dark-2);
@@ -752,9 +758,6 @@ footer {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 8px;
-  }
-  .card-counter p {
-    color: var(--colors-dark-primary-light-1);
   }
   .service-card,
   .project-card {
