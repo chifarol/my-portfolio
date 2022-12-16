@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
         </div>
         <a
-          href="/ilodigwe-chinaza-tech-cv-2022.pdf"
+          href="/my-portfolio/ilodigwe-chinaza-tech-cv-2022.pdf"
           className="hero-sub-1-resume"
           download
         >
