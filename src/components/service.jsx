@@ -38,7 +38,7 @@ export const ServiceCards = () => {
       <ServiceCard
         type="backend"
         title="Back-End Development"
-        desc="Modern, visually appealing and responsive website designs for various screen sizes"
+        desc="Build high quality APIs, Efficient Database Strategy and a secure Backend."
       />
       <ServiceCard
         type="wp"
