@@ -6,7 +6,12 @@ import {
   LinkedInIcon,
   GithubIcon,
 } from "./svgs";
-
+const titles = [
+  "Fullstack Web Developer",
+  "Front-End Developer",
+  "Back-End Developer",
+  "UI Designer",
+];
 const Hero = () => {
   return (
     <div className="hero-section">
