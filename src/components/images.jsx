@@ -1,27 +1,30 @@
 import React from "react";
 
 export const TweeterImg = () => (
-  <img src="/tweeter.jpg" alt="tweeter screenshot" />
+  <img src="/my-portfolio/tweeter.jpg" alt="tweeter screenshot" />
 );
 export const ChatboxxImg = () => (
-  <img src="/chatboxx.jpg" alt="chatboxx screenshot" />
+  <img src="/my-portfolio/chatboxx.jpg" alt="chatboxx screenshot" />
 );
 export const EdieImg = () => <img src="/edie.jpg" alt="edie homepage" />;
 export const WindBnBImg = () => (
-  <img src="/windbnb.jpg" alt="WindBnB screenshot" />
+  <img src="/my-portfolio/windbnb.jpg" alt="WindBnB screenshot" />
 );
 export const InteriorImg = () => (
-  <img src="/interior-decor.jpg" alt="interior screenshot" />
+  <img src="/my-portfolio/interior-decor.jpg" alt="interior screenshot" />
 );
 export const HuddleImg = () => (
-  <img src="/huddle.jpg" alt="huddle screenshot" />
+  <img src="/my-portfolio/huddle.jpg" alt="huddle screenshot" />
 );
 export const GalleryImg = () => (
-  <img src="/gallery.jpg" alt="gallery screenshot" />
+  <img src="/my-portfolio/gallery.jpg" alt="gallery screenshot" />
 );
 export const CheckoutImg = () => (
-  <img src="/checkout.jpg" alt="checkout screenshot" />
+  <img src="/my-portfolio/checkout.jpg" alt="checkout screenshot" />
 );
 export const SimplePlaylistImg = () => (
-  <img src="/simple-playlist.jpg" alt="simple-playlist screenshot" />
+  <img
+    src="/my-portfolio/simple-playlist.jpg"
+    alt="simple-playlist screenshot"
+  />
 );

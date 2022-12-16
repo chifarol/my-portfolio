@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-sub-2">
-        <img src="/memoji.png" alt="memoji_avatar" />
+        <img src="/my-portfolio/memoji.png" alt="memoji_avatar" />
       </div>
     </div>
   );
