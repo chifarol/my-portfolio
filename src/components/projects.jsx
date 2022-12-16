@@ -11,7 +11,7 @@ import {
   CheckoutImg,
 } from "./images";
 
-const ProjectCard = ({ type, title, desc, tags, demoUrl, codeUrl }) => {
+const ProjectCard = ({ type, title, desc, tags = ["x"], demoUrl, codeUrl }) => {
   return (
     <div className="project-card">
       <div className="project-card-image">
@@ -37,14 +37,16 @@ const ProjectCard = ({ type, title, desc, tags, demoUrl, codeUrl }) => {
       </div>
       <div className="project-card-intro">
         <h4>{title}</h4>
-        <h4>{desc}</h4>
+        <p className="type5">{desc}</p>
       </div>
       <div className="project-card-tags">
         {tags.map((tag) => (
-          <span className="project-card-tag">{tag}</span>
+          <span className="project-card-tag type6" key={tag}>
+            {tag}
+          </span>
         ))}
       </div>
-      <div className="project-card-links">
+      <div className="project-card-links type6">
         <a href={demoUrl}>Demo</a>
         <a href={codeUrl}>&#60;Code&#47;&#62;</a>
       </div>
@@ -100,16 +102,16 @@ export const ProjectCards = () => {
       />
       <ProjectCard
         type="edie"
-        title="Home Page for a fictional company"
-        desc={["HTML", "CSS"]}
-        tags="Gallery page for a fictional person"
+        title="Edie"
+        desc="Home Page for a fictional company"
+        tags={["HTML", "CSS"]}
         demoUrl="https://chifarol.github.io/devChallenges-Responsive-Design-Task-6---Edie-homepage-Page/"
         codeUrl="https://github.com/chifarol/devChallenges-Responsive-Design-Task-6---Edie-homepage-Page"
       />
       <ProjectCard
         type="interior"
         title="Interior Decor"
-        desc=""
+        desc="Home page for a fictional interior decor website"
         tags={["HTML", "CSS"]}
         demoUrl="https://chifarol.github.io/devChallenges-responsive-interior-decor-/"
         codeUrl="https://github.com/chifarol/devChallenges-responsive-interior-decor-"

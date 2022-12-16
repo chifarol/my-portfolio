@@ -4,9 +4,7 @@ import { LightModeIcon, DarkModeIcon } from "./svgs";
 const Header = () => {
   return (
     <header className="header">
-      <h3>
-        <PORTFOLIO />
-      </h3>
+      <h3>&#60;PORTFOLIO&#47;&#62;</h3>
       <div className="header-right">
         <LightModeIcon />
         <DarkModeIcon />

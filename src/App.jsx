@@ -1,20 +1,26 @@
 import { useState } from "react";
 import React from "react";
 import Header from "./components/header";
+import Hero from "./components/hero";
 import SectionDivider from "./components/section-divider";
 import ServiceCards from "./components/service";
 import ProjectCards from "./components/projects";
 import Stacks from "./components/stacks";
 import Footer from "./components/footer";
-import "./App.css";
+import "./App.scss";
+import "@fontsource/saira-semi-condensed/400.css";
+import "@fontsource/saira-semi-condensed/600.css";
+import "@fontsource/saira/700.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
+    <div className="app dark-mode">
       <Header />
       <div className="main">
+        {/* hero section */}
+        <Hero />
         {/* services */}
         <div className="section service-section">
           <SectionDivider title="Services" desc="Various services I offer" />
@@ -38,9 +44,7 @@ function App() {
             title="Tech Stacks"
             desc="Tools, Frameworks and Languages I work with"
           />
-          <div className="project-card-container">
-            <Stacks />
-          </div>
+          <Stacks />
         </div>
       </div>
       <Footer />

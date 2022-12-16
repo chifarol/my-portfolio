@@ -4,7 +4,7 @@ import { DesignIcon, CodeIcon, DatabaseIcon, ChartIcon, WPIcon } from "./svgs";
 const ServiceCard = ({ type, title, desc }) => {
   return (
     <div className="service-card">
-      <div className="card-icon">
+      <div className="service-card-icon">
         {type == "design" ? (
           <DesignIcon />
         ) : type == "frontend" ? (
@@ -18,18 +18,13 @@ const ServiceCard = ({ type, title, desc }) => {
         )}
       </div>
       <h3>{title}</h3>
-      <p className="type5">{title}</p>
+      <p className="type5">{desc}</p>
     </div>
   );
 };
 export const ServiceCards = () => {
   return (
     <>
-      <ServiceCard
-        type="design"
-        title="Web Design"
-        desc="Modern, visually appealing and responsive website designs for various screen sizes"
-      />
       <ServiceCard
         type="design"
         title="Web Design"

@@ -22,31 +22,34 @@ const stackArray = [
 ];
 const Stack = ({ type }) => {
   return (
-    <div className="section stack-section">
-      <div></div>
-      <div className="stack-pill">
-        {type == "HTML" ? (
-          <HTMLIcon />
-        ) : type == "CSS" ? (
-          <CSSIcon />
-        ) : type == "Javascript" ? (
-          <JSIcon />
-        ) : type == "NodeJS" ? (
-          <NodeJsIcon />
-        ) : type == "ReactJS" ? (
-          <ReactIcon />
-        ) : type == "PHP" ? (
-          <PHPIcon />
-        ) : type == "Wordpress" ? (
-          <WPIcon />
-        ) : (
-          <DjangoIcon />
-        )}
-      </div>
+    <div className="stack-pill">
+      {type == "HTML" ? (
+        <HTMLIcon />
+      ) : type == "CSS" ? (
+        <CSSIcon />
+      ) : type == "Javascript" ? (
+        <JSIcon />
+      ) : type == "NodeJS" ? (
+        <NodeJsIcon />
+      ) : type == "ReactJS" ? (
+        <ReactIcon />
+      ) : type == "PHP" ? (
+        <PHPIcon />
+      ) : type == "Wordpress" ? (
+        <WPIcon />
+      ) : (
+        <DjangoIcon />
+      )}
       <span className="stack-title">{type}</span>
     </div>
   );
 };
 
-const Stacks = ({ type }) => stackArray.map((stack) => <Stack type={stack} />);
+const Stacks = () => (
+  <div className="stacks-container">
+    {stackArray.map((stack) => (
+      <Stack type={stack} key={stack} />
+    ))}
+  </div>
+);
 export default Stacks;

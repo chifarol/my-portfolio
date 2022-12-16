@@ -9,11 +9,13 @@ import {
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <p className="section-divider-title">Let's Work Together</p>
-      <p className="section-divider-desc">
-        You can reach out to me on these platforms
-      </p>
+    <footer className="footer">
+      <div className="footer-section">
+        <h3 className="footer-section-title">Let's Work Together</h3>
+        <p className="footer-section-desc">
+          You can reach out to me on these platforms
+        </p>
+      </div>
       <div className="footer-icons">
         <a href="http://twitter.com/ilodigwechinaza">
           <TwitterIcon />
@@ -31,7 +33,7 @@ const Footer = () => {
           <LinkedInIcon />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 
