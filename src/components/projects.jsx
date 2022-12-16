@@ -58,21 +58,20 @@ export const ProjectCards = () => {
   return (
     <>
       <ProjectCard
-        type="chatboxx"
-        title="Chatboxx"
-        desc="A chat app where users can send and receive direct or group messages"
-        tags={["MERN", "Socket.io", "Cloudinary"]}
-        demoUrl="https://chatboxx.onrender.com/login"
-        codeUrl="https://github.com/chifarol/chatboxx"
-      />
-
-      <ProjectCard
         type="tweeter"
         title="Tweeter"
         desc="A simple version of twitter built with React and Django"
         tags={["Django", "React", "Cloudinary"]}
         demoUrl="https://tweeter-react-django.onrender.com/login"
         codeUrl="https://github.com/chifarol/tweeter"
+      />
+      <ProjectCard
+        type="chatboxx"
+        title="Chatboxx"
+        desc="A chat app where users can send and receive direct or group messages"
+        tags={["MERN", "Socket.io", "Cloudinary"]}
+        demoUrl="https://chatboxx.onrender.com/login"
+        codeUrl="https://github.com/chifarol/chatboxx"
       />
 
       <ProjectCard

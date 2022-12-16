@@ -24,23 +24,30 @@ const Hero = () => {
             Themes/Plugins Development.
           </p>
         </div>
-        <a href="/tech-cv-2022.pdf" className="hero-sub-1-resume" download>
+        <a
+          href="/ilodigwe-chinaza-tech-cv-2022.pdf"
+          className="hero-sub-1-resume"
+          download
+        >
           Download Resume
         </a>
         <div className="hero-sub-1-icons">
-          <a href="http://twitter.com/ilodigwechinaza">
+          <a href="http://twitter.com/ilodigwechinaza" target="_blank">
             <TwitterIcon />
           </a>
-          <a href="https://github.com/chifarol">
+          <a href="https://github.com/chifarol" target="_blank">
             <GithubIcon />
           </a>
-          <a href="mailto:ilodigwecinaza@gmail.com?">
+          <a href="mailto:ilodigwecinaza@gmail.com?" target="_blank">
             <MailIcon />
           </a>
-          <a href="https://wa.me/2349050741851">
+          <a href="https://wa.me/2349050741851" target="_blank">
             <WhatsappIcon />
           </a>
-          <a href="https://www.linkedin.com/in/ilodigwe-chinaza-05b435186">
+          <a
+            href="https://www.linkedin.com/in/ilodigwe-chinaza-05b435186"
+            target="_blank"
+          >
             <LinkedInIcon />
           </a>
         </div>

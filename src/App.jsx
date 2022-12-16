@@ -10,13 +10,15 @@ import Footer from "./components/footer";
 import "./App.scss";
 import "@fontsource/saira-semi-condensed/400.css";
 import "@fontsource/saira-semi-condensed/600.css";
-import "@fontsource/saira/700.css";
+import "@fontsource/saira/600.css";
+import ModeContext from "./components/contexts";
+import { useContext } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const { mode } = useContext(ModeContext);
 
   return (
-    <div className="app dark-mode">
+    <div className={`app ${mode ? "light-mode" : "dark-mode"}`}>
       <Header />
       <div className="main">
         {/* hero section */}

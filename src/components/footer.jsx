@@ -17,19 +17,22 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-icons">
-        <a href="http://twitter.com/ilodigwechinaza">
+        <a href="http://twitter.com/ilodigwechinaza" target="_blank">
           <TwitterIcon />
         </a>
-        <a href="https://github.com/chifarol">
+        <a href="https://github.com/chifarol" target="_blank">
           <GithubIcon />
         </a>
-        <a href="mailto:ilodigwecinaza@gmail.com?">
+        <a href="mailto:ilodigwecinaza@gmail.com?" target="_blank">
           <MailIcon />
         </a>
-        <a href="https://wa.me/2349050741851">
+        <a href="https://wa.me/2349050741851" target="_blank">
           <WhatsappIcon />
         </a>
-        <a href="https://www.linkedin.com/in/ilodigwe-chinaza-05b435186">
+        <a
+          href="https://www.linkedin.com/in/ilodigwe-chinaza-05b435186"
+          target="_blank"
+        >
           <LinkedInIcon />
         </a>
       </div>
