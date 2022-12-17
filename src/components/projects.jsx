@@ -12,7 +12,14 @@ import {
   CheckoutImg,
 } from "./images";
 
-const ProjectCard = ({ type, title, desc, tags = ["x"], demoUrl, codeUrl }) => {
+const ProjectCard = ({
+  type,
+  title,
+  desc,
+  tags = ["HTML", "CSS"],
+  demoUrl,
+  codeUrl,
+}) => {
   return (
     <div className="project-card">
       <div className="project-card-image">
@@ -50,8 +57,12 @@ const ProjectCard = ({ type, title, desc, tags = ["x"], demoUrl, codeUrl }) => {
         ))}
       </div>
       <div className="project-card-links type6">
-        <a href={demoUrl}>Demo</a>
-        <a href={codeUrl}>&#60;Code&#47;&#62;</a>
+        <a href={demoUrl} target="_blank">
+          Demo
+        </a>
+        <a href={codeUrl} target="_blank">
+          &#60;Code&#47;&#62;
+        </a>
       </div>
     </div>
   );
