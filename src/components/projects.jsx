@@ -3,6 +3,7 @@ import {
   ChatboxxImg,
   TweeterImg,
   SimplePlaylistImg,
+  PortfolioImg,
   WindBnBImg,
   HuddleImg,
   EdieImg,
@@ -21,6 +22,8 @@ const ProjectCard = ({ type, title, desc, tags = ["x"], demoUrl, codeUrl }) => {
           <TweeterImg />
         ) : type == "simple" ? (
           <SimplePlaylistImg />
+        ) : type == "portfolio" ? (
+          <PortfolioImg />
         ) : type == "windbnb" ? (
           <WindBnBImg />
         ) : type == "huddle" ? (
@@ -82,7 +85,14 @@ export const ProjectCards = () => {
         demoUrl="https://github.com/chifarol/WP-Simple-Playlist"
         codeUrl="https://github.com/chifarol/WP-Simple-Playlist"
       />
-
+      <ProjectCard
+        type="portfolio"
+        title="Portfolio Website"
+        desc="A portfolio website"
+        tags={["React"]}
+        demoUrl="https://chifarol.github.io/my-portfolio/"
+        codeUrl="https://github.com/chifarol/my-portfolio/"
+      />
       <ProjectCard
         type="windbnb"
         title="WindBnB"

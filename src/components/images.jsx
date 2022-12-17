@@ -9,6 +9,9 @@ export const ChatboxxImg = () => (
 export const EdieImg = () => (
   <img src="/my-portfolio/edie.jpg" alt="edie homepage" />
 );
+export const PortfolioImg = () => (
+  <img src="/my-portfolio/portfolio.jpg" alt="edie homepage" />
+);
 export const WindBnBImg = () => (
   <img src="/my-portfolio/windbnb.jpg" alt="WindBnB screenshot" />
 );

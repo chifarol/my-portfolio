@@ -34,10 +34,10 @@ function App() {
   function pCounterHandler(e) {
     const width = e.target.scrollWidth - e.target.clientWidth;
     const position = e.target.scrollLeft;
-    const percentage = Math.floor((position / width) * 9 + 1);
+    const percentage = Math.floor((position / width) * 10 + 1.2);
     setTimeout(() => {
-      if (percentage > 9) {
-        setPCardCounter(9);
+      if (percentage > 10) {
+        setPCardCounter(10);
       } else {
         setPCardCounter(percentage);
       }
@@ -69,7 +69,7 @@ function App() {
           />
           <div className="project-container">
             <div className="card-counter">
-              <p>{pCardCounter}/9</p>
+              <p>{pCardCounter}/10</p>
             </div>
             <div className="project-card-container" onScroll={pCounterHandler}>
               <ProjectCards />
