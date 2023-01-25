@@ -72,14 +72,6 @@ export const ProjectCards = () => {
   return (
     <>
       <ProjectCard
-        type="tweeter"
-        title="Tweeter"
-        desc="A simple version of twitter built with React and Django"
-        tags={["Django", "React", "Cloudinary"]}
-        demoUrl="https://tweeter-react-django.onrender.com/login"
-        codeUrl="https://github.com/chifarol/tweeter"
-      />
-      <ProjectCard
         type="chatboxx"
         title="Chatboxx"
         desc="A chat app where users can send and receive direct or group messages"
@@ -87,7 +79,6 @@ export const ProjectCards = () => {
         demoUrl="https://chatboxx.onrender.com/login"
         codeUrl="https://github.com/chifarol/chatboxx"
       />
-
       <ProjectCard
         type="simple"
         title="Simple Playlist"
@@ -95,6 +86,14 @@ export const ProjectCards = () => {
         tags={["PHP", "Wordpress"]}
         demoUrl="https://github.com/chifarol/WP-Simple-Playlist"
         codeUrl="https://github.com/chifarol/WP-Simple-Playlist"
+      />
+      <ProjectCard
+        type="tweeter"
+        title="Tweeter"
+        desc="A simple version of twitter built with React and Django"
+        tags={["Django", "React", "Cloudinary"]}
+        demoUrl="https://tweeter-react-django.onrender.com/login"
+        codeUrl="https://github.com/chifarol/tweeter"
       />
       <ProjectCard
         type="portfolio"
