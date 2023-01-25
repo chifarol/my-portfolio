@@ -108,7 +108,7 @@ export const ProjectCards = () => {
         title="WindBnB"
         desc="An AirBnB inspired website."
         tags={["React"]}
-        demoUrl="https://jgr6d1.csb.app/"
+        demoUrl="https://csb-jgr6d1.netlify.app/"
         codeUrl="https://github.com/chifarol/WindBnB"
       />
       <ProjectCard
