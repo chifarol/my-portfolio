@@ -486,6 +486,9 @@ h6 {
   max-width: 350px;
   padding: 48px;
   border-radius: 50%;
+  
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-sub-2 img {
   height: 100%;
@@ -535,6 +538,8 @@ h6 {
 
 .service-card {
   border-radius: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -653,6 +658,8 @@ h6 {
   padding-right: 16px;
   align-items: center;
   border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   gap: 8px;
 }
 .stack-pill svg {
@@ -802,6 +809,8 @@ footer {
     max-width: 200px;
     padding: 32px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main,
   .header {
