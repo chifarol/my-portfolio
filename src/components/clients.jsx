@@ -12,9 +12,9 @@ import {
 
 const clientArray = [
   ["","excellent-bridge-logo.png"],
-  ["","/loycy-logo.png"],
-  ["","/mobirevo.png"],
-  ["","/WebCapz-Tech-Logo.png"],
+  ["","loycy-logo.png"],
+  ["","mobirevo.png"],
+  ["","WebCapz-Tech-Logo.png"],
 ];
 const Clients = ({ type }) => {
   return (
