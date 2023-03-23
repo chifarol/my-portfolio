@@ -13,8 +13,11 @@ import {
 const stackArray = [
   "HTML",
   "CSS",
+  "Tailwindcss",
   "Javascript",
   "NodeJS",
+  "Typescript",
+  "NextJS",
   "ReactJS",
   "PHP",
   "Wordpress",
@@ -31,11 +34,23 @@ const Stack = ({ type }) => {
         <JSIcon />
       ) : type == "NodeJS" ? (
         <NodeJsIcon />
-      ) : type == "ReactJS" ? (
+      ) 
+      : type == "ReactJS" ? (
         <ReactIcon />
-      ) : type == "PHP" ? (
+      ) 
+      : type == "NextJS" ? (
+        <img src="/next-js-icon.png" height="24px" width="24px" style={{width:'24px',height:'24px'}} />
+      ) 
+      : type == "Typescript" ? (
+        <img src="/typescript-icon.png" height="24px" width="24px" style={{width:'24px',height:'24px'}} />
+      ) 
+      : type == "Tailwindcss" ? (
+        <img src="/tailwind-icon.svg" height="24px" width="24px" style={{width:'24px',height:'24px'}} />
+      ) 
+      : type == "PHP" ? (
         <PHPIcon />
-      ) : type == "Wordpress" ? (
+      ) 
+      : type == "Wordpress" ? (
         <WPIcon />
       ) : (
         <DjangoIcon />

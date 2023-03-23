@@ -241,6 +241,10 @@ h6 {
     }
   }
 
+  .client-pill {
+    background-color: var(--colors-dark-surface-4);
+    color: var(--colors-dark-secondary-light-2);
+  }
   .stack-pill {
     background-color: var(--colors-dark-surface-4);
     color: var(--colors-dark-secondary-light-2);
@@ -369,6 +373,10 @@ h6 {
       background-color: var(--colors-light-surface-6);
       width: 10px;
     }
+  }
+  .client-pill {
+    background-color: var(--colors-light-surface-6);
+    color: var(--colors-light-primary-dark-2);
   }
   .stack-pill {
     background-color: var(--colors-light-surface-6);
@@ -564,6 +572,10 @@ h6 {
   flex-direction: column;
   gap: 16px;
 }
+.project-card-intro h4 {
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+  }
 .project-card-image {
   border-radius: 8px;
   width: 100%;
@@ -579,8 +591,8 @@ h6 {
 
 .project-card-image img {
   width: 100%;
-  height: auto;
   aspect-ratio: 4/3;
+  object-fit:cover;
 }
 .project-card-links a {
   text-decoration: underline;
@@ -609,6 +621,24 @@ h6 {
   align-items: center;
   align-self: flex-end;
   overflow-x: scroll;
+}
+
+.client-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.client-pill {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-right: 16px;
+  align-items: center;
+  border-radius: 4px;
+  gap: 8px;
+  font-weight: 600;
+  min-width:200px;
 }
 .stacks-container {
   display: flex;

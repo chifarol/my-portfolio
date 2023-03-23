@@ -6,6 +6,7 @@ import SectionDivider from "./components/section-divider";
 import ServiceCards from "./components/service";
 import ProjectCards from "./components/projects";
 import Stacks from "./components/stacks";
+import Clients from "./components/clients";
 import Footer from "./components/footer";
 import "./App.scss";
 import "@fontsource/saira-semi-condensed/400.css";
@@ -34,12 +35,12 @@ function App() {
   function pCounterHandler(e) {
     const width = e.target.scrollWidth - e.target.clientWidth;
     const position = e.target.scrollLeft;
-    const percentage = Math.floor((position / width) * 10 + 1.2);
+    const percentage = Math.floor((position / width) * 14);
     setTimeout(() => {
-      if (percentage > 10) {
-        setPCardCounter(10);
+      if (percentage > 13) {
+        setPCardCounter(14);
       } else {
-        setPCardCounter(percentage);
+        setPCardCounter(percentage+1);
       }
     }, 300);
   }
@@ -69,12 +70,20 @@ function App() {
           />
           <div className="project-container">
             <div className="card-counter">
-              <p>{pCardCounter}/10</p>
+              <p>{pCardCounter}/14</p>
             </div>
             <div className="project-card-container" onScroll={pCounterHandler}>
               <ProjectCards />
             </div>
           </div>
+        </div>
+        {/* clients */}
+        <div className="section stack-section">
+          <SectionDivider
+            title="Clients"
+            desc="Companies and clients I've worked with"
+          />
+          <Clients />
         </div>
         {/* tech stacks */}
         <div className="section stack-section">

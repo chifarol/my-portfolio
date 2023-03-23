@@ -1,5 +1,18 @@
 import React from "react";
 
+
+export const LoycyImg = () => (
+  <img src="/my-portfolio/loycy-engineering.jpg" alt="loycy-engineering screenshot" />
+);
+export const ExbImg = () => (
+  <img src="/my-portfolio/excellent-bridge-website-screenshot.jpg" alt="Excellent bridge website screenshot" />
+);
+export const QuickrpayImg = () => (
+  <img src="/my-portfolio/quickr-pay-screenshot.jpg" alt="quickr-pay screenshot" />
+);
+export const QuickrpayDashboardImg = () => (
+  <img src="/my-portfolio/quickr-pay-dashboard.jpg" alt="quickr-pay dashboard screenshot" />
+);
 export const TweeterImg = () => (
   <img src="/my-portfolio/tweeter.jpg" alt="tweeter screenshot" />
 );
