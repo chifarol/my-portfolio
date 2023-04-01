@@ -68,7 +68,7 @@ export const ProjectCards = () => {
     {
       image: <QuickrpayDashboardImg />,
       type: "quickr-pay-dashboard",
-      title: "Quickr Pay Dashboard",
+      title: "Quickr Pay Dashboard (Demo)",
       desc: "User Dashboard for Quickr Pay App (coming soon)",
       tags: ["React", "Redux Toolkit"],
       demoUrl: "",
@@ -86,7 +86,7 @@ export const ProjectCards = () => {
     {
       image: <QuickrpayImg />,
       type: "quickr-pay",
-      title: "Quickr Pay Landing Page",
+      title: "Quickr Pay Landing Page (Demo)",
       desc: "Landing Page for Quickr Pay (coming soon)",
       tags: ["React"],
       demoUrl: "https://merry-zuccutto-2a0de3.netlify.app/",
@@ -95,16 +95,16 @@ export const ProjectCards = () => {
     {
       image: <EStoreImg />,
       type: "estore-pay",
-      title: "Crown Mart",
+      title: "Crown Mart (Demo)",
       desc: "A mini online store front",
       tags: ["React", "Firebase"],
-      demoUrl: "https://merry-zuccutto-2a0de3.netlify.app/",
-      codeUrl: "#",
+      demoUrl: "https://voluble-tarsier-52a7ee.netlify.app/",
+      codeUrl: "https://github.com/chifarol/Crown-Clothing",
     },
     {
       image: <ChatboxxImg />,
       type: "chatboxx",
-      title: "",
+      title: "Chatboxx (Demo)",
       desc: "A chat app where users can send and receive direct or group messages",
       tags: ["MERN", "Socket.io", "Cloudinary"],
       demoUrl: "https://chatboxx.onrender.com/login",
@@ -113,7 +113,7 @@ export const ProjectCards = () => {
     {
       image: <SimplePlaylistImg />,
       type: "simple",
-      title: "Simple Playlist",
+      title: "Simple Playlist (Plugin)",
       desc: "A WordPress playlist plugin with color customizations",
       tags: ["PHP", "Wordpress"],
       demoUrl: "https://github.com/chifarol/WP-Simple-Playlist",
@@ -122,7 +122,7 @@ export const ProjectCards = () => {
     {
       image: <TweeterImg />,
       type: "tweeter",
-      title: "Tweeter",
+      title: "Tweeter (Demo)",
       desc: "A simple version of twitter built with React and Django",
       tags: ["Django", "React", "Cloudinary"],
       demoUrl: "https://tweeter-react-django.onrender.com/login",
@@ -140,7 +140,7 @@ export const ProjectCards = () => {
     {
       image: <WindBnBImg />,
       type: "windbnb",
-      title: "WindBnB",
+      title: "WindBnB (Demo)",
       desc: "An AirBnB inspired website demo.",
       tags: ["React"],
       demoUrl: "https://csb-jgr6d1.netlify.app/",
@@ -149,7 +149,7 @@ export const ProjectCards = () => {
     {
       image: <HuddleImg />,
       type: "huddle",
-      title: "Huddle Landing Page demo",
+      title: "Huddle Landing Page (Demo)",
       desc: "Huddle Landing page clone",
       tags: ["HTML", "CSS"],
       demoUrl: "https://chifarol.github.io/zuri-wk5-Task-2-Hubble/",
@@ -158,7 +158,7 @@ export const ProjectCards = () => {
     {
       image: <EdieImg />,
       type: "edie",
-      title: "Edie",
+      title: "Edie (Demo)",
       desc: "Home Page for a fictional company",
       tags: ["HTML", "CSS"],
       demoUrl: "https://chifarol.github.io/devChallenges-Responsive-Design-Task-6---Edie-homepage-Page/",
@@ -167,7 +167,7 @@ export const ProjectCards = () => {
     {
       image: <GalleryImg />,
       type: "gallery",
-      title: "Gallery Page",
+      title: "Gallery Page (Demo)",
       desc: "Gallery page for a fictional personal portfolio website",
       tags: ["HTML", "CSS"],
       demoUrl: "https://chifarol.github.io/devChallenges---Responsive-Design-my-gallery-/",
@@ -176,7 +176,7 @@ export const ProjectCards = () => {
     {
       image: <CheckoutImg />,
       type: "checkout",
-      title: "Checkout Page",
+      title: "Checkout Page (Demo)",
       desc: "Checkout page for a fictional E-Commerce site",
       tags: ["HTML", "CSS"],
       demoUrl: "https://chifarol.github.io/devChallenges-Responsive-Design-Task-6---Checkout-Page/",
