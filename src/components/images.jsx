@@ -13,6 +13,9 @@ export const QuickrpayImg = () => (
 export const QuickrpayDashboardImg = () => (
   <img src="/my-portfolio/quickr-pay-dashboard.jpg" alt="quickr-pay dashboard screenshot" />
 );
+export const EStoreImg = () => (
+  <img src="/my-portfolio/e-store.jpg" alt="e-Store screenshot" />
+);
 export const TweeterImg = () => (
   <img src="/my-portfolio/tweeter.jpg" alt="tweeter screenshot" />
 );
