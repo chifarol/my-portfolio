@@ -22,6 +22,12 @@ export const TweeterImg = () => (
 export const ChatboxxImg = () => (
   <img src="/my-portfolio/chatboxx.jpg" alt="chatboxx screenshot" />
 );
+export const BlogImg = () => (
+  <img src="/my-portfolio/blog.jpg" alt="blog" />
+);
+export const BlogDashboardImg = () => (
+  <img src="/my-portfolio/admin_dashboard.jpg" alt="blog admin dashboard" />
+);
 export const EdieImg = () => (
   <img src="/my-portfolio/edie.jpg" alt="edie homepage" />
 );
