@@ -5,6 +5,7 @@ import {
   WhatsappIcon,
   LinkedInIcon,
   GithubIcon,
+  BehanceIcon
 } from "./svgs";
 
 const Footer = () => {
@@ -34,6 +35,12 @@ const Footer = () => {
           target="_blank"
         >
           <LinkedInIcon />
+        </a>
+        <a
+          href="https://www.behance.net/ilodigwechinaza"
+          target="_blank"
+        >
+          <BehanceIcon />
         </a>
       </div>
     </footer>

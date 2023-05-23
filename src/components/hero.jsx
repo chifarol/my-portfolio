@@ -5,6 +5,7 @@ import {
   WhatsappIcon,
   LinkedInIcon,
   GithubIcon,
+  BehanceIcon
 } from "./svgs";
 const titles = [
   "Fullstack Web \n Developer",
@@ -84,6 +85,12 @@ const Hero = () => {
             target="_blank"
           >
             <LinkedInIcon />
+          </a>
+          <a
+            href="https://www.behance.net/ilodigwechinaza"
+            target="_blank"
+          >
+            <BehanceIcon />
           </a>
         </div>
       </div>
