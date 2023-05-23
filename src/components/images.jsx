@@ -4,6 +4,12 @@ import React from "react";
 export const LoycyImg = () => (
   <img src="/my-portfolio/loycy-engineering.jpg" alt="loycy-engineering screenshot" />
 );
+export const GoodChoirImg = () => (
+  <img src="/my-portfolio/goodchoir.jpg" alt="Excellent bridge website screenshot" />
+);
+export const RzalImg = () => (
+  <img src="/my-portfolio/rzal.jpg" alt="Excellent bridge website screenshot" />
+);
 export const ExbImg = () => (
   <img src="/my-portfolio/excellent-bridge-website-screenshot.jpg" alt="Excellent bridge website screenshot" />
 );
