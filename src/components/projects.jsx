@@ -39,8 +39,8 @@ const ProjectCard = ({
 import {
   LoycyImg,
   ExbImg,
-  QuickrpayImg,
-  QuickrpayDashboardImg,
+  GoodChoirImg,
+  RzalImg,
   ChatboxxImg,
   EStoreImg,
   BlogImg,
