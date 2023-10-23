@@ -25,8 +25,8 @@ const ProjectCard = ({
           </span>
         ))}
       </div>
-      <div className="project-card-links type6">
-        <a href={demoUrl} target="_blank">
+      <div className="project-card-links type6" style={{ marginTop: "auto" }}>
+        <a href={demoUrl} target="_blank" >
           Demo
         </a>
         {codeUrl && <a href={codeUrl} target="_blank">
