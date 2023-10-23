@@ -1,6 +1,12 @@
 import React from "react";
 
 
+export const PropfirmImg = () => (
+  <img src="/my-portfolio/propfirm.jpg" alt="propfirm screenshot" />
+);
+export const NimiMiniImg = () => (
+  <img src="/my-portfolio/nimimini.jpg" alt="nimimini screenshot" />
+);
 export const LoycyImg = () => (
   <img src="/my-portfolio/loycy-engineering.jpg" alt="loycy-engineering screenshot" />
 );

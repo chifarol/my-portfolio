@@ -29,9 +29,9 @@ const ProjectCard = ({
         <a href={demoUrl} target="_blank">
           Demo
         </a>
-        <a href={codeUrl} target="_blank">
+        {codeUrl && <a href={codeUrl} target="_blank">
           &#60;Code&#47;&#62;
-        </a>
+        </a>}
       </div>
     </div>
   );
@@ -54,10 +54,30 @@ import {
   InteriorImg,
   GalleryImg,
   CheckoutImg,
+  NimiMiniImg,
+  PropfirmImg,
 } from "./images";
 
 export const ProjectCards = () => {
   const projects = [
+    {
+      image: <PropfirmImg />,
+      type: "PropfirmImg",
+      title: "Propfirm Website",
+      desc: "Development of wordpress theme for Propfirm - a Forex Broker Listing website",
+      tags: ["Wordpress", "PHP", "ACF"],
+      demoUrl: "https://propfirm.xplicitmode.com/",
+      codeUrl: "",
+    },
+    {
+      image: <NimiMiniImg />,
+      type: "NimiMini",
+      title: "NimiMini E-Commerce Website",
+      desc: "Design & Development of an e-commerce website for Nimimini - a luxury fashion brand",
+      tags: ["Laravel", "PHP", "AlpineJS"],
+      demoUrl: "https://nimimini.com/",
+      codeUrl: "",
+    },
     {
       image: <GoodChoirImg />,
       type: "GoodChoirImg",
@@ -65,7 +85,7 @@ export const ProjectCards = () => {
       desc: "Design & Development of the official website for the GoodChoir + Admin Dashboard",
       tags: ["TailwindCSS", "PHP"],
       demoUrl: "https://goodchoir.com/",
-      codeUrl: "#",
+      codeUrl: "",
     },
     {
       image: <RzalImg />,
@@ -74,7 +94,7 @@ export const ProjectCards = () => {
       desc: "Design & Development of an online rent portal for Rzal, a car rental service based in Nigeria",
       tags: ["Typescript", "NextJS", "Headless WordPress", "TailwindCSS"],
       demoUrl: "https://rzal.vercel.app/",
-      codeUrl: "#",
+      codeUrl: "",
     },
     {
       image: <ExbImg />,
@@ -83,7 +103,7 @@ export const ProjectCards = () => {
       desc: "Website redesign for ExcellentBridge",
       tags: ["TailwindCSS", "PHP", "Laravel"],
       demoUrl: "https://excellentbridge.com/",
-      codeUrl: "#",
+      codeUrl: "",
     },
     {
       image: <LoycyImg />,
@@ -92,7 +112,7 @@ export const ProjectCards = () => {
       desc: "Website redesign for Loycy Investment Company",
       tags: ["NextJS", "TailwindCSS"],
       demoUrl: "https://loycy-engineering.vercel.app/",
-      codeUrl: "#",
+      codeUrl: "",
     },
     {
       image: <EStoreImg />,
@@ -166,24 +186,24 @@ export const ProjectCards = () => {
       demoUrl: "https://csb-jgr6d1.netlify.app/",
       codeUrl: "https://github.com/chifarol/WindBnB",
     },
-    {
-      image: <GalleryImg />,
-      type: "gallery",
-      title: "Gallery Page (Demo)",
-      desc: "Gallery page for a fictional personal portfolio website",
-      tags: ["HTML", "CSS"],
-      demoUrl: "https://chifarol.github.io/devChallenges---Responsive-Design-my-gallery-/",
-      codeUrl: "https://github.com/chifarol/devChallenges---Responsive-Design-my-gallery-",
-    },
-    {
-      image: <CheckoutImg />,
-      type: "checkout",
-      title: "Checkout Page (Demo)",
-      desc: "Checkout page for a fictional E-Commerce site",
-      tags: ["HTML", "CSS"],
-      demoUrl: "https://chifarol.github.io/devChallenges-Responsive-Design-Task-6---Checkout-Page/",
-      codeUrl: "https://github.com/chifarol/devChallenges-Responsive-Design-Task-6---Checkout-Page",
-    }
+    // {
+    //   image: <GalleryImg />,
+    //   type: "gallery",
+    //   title: "Gallery Page (Demo)",
+    //   desc: "Gallery page for a fictional personal portfolio website",
+    //   tags: ["HTML", "CSS"],
+    //   demoUrl: "https://chifarol.github.io/devChallenges---Responsive-Design-my-gallery-/",
+    //   codeUrl: "https://github.com/chifarol/devChallenges---Responsive-Design-my-gallery-",
+    // },
+    // {
+    //   image: <CheckoutImg />,
+    //   type: "checkout",
+    //   title: "Checkout Page (Demo)",
+    //   desc: "Checkout page for a fictional E-Commerce site",
+    //   tags: ["HTML", "CSS"],
+    //   demoUrl: "https://chifarol.github.io/devChallenges-Responsive-Design-Task-6---Checkout-Page/",
+    //   codeUrl: "https://github.com/chifarol/devChallenges-Responsive-Design-Task-6---Checkout-Page",
+    // }
   ]
   return (
     <>
