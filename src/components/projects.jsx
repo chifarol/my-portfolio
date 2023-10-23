@@ -72,7 +72,7 @@ export const ProjectCards = () => {
     {
       image: <NimiMiniImg />,
       type: "NimiMini",
-      title: "NimiMini E-Commerce Website",
+      title: "NimiMini E-Commerce",
       desc: "Design & Development of an e-commerce website for Nimimini - a luxury fashion brand",
       tags: ["Laravel", "PHP", "AlpineJS"],
       demoUrl: "https://nimimini.com/",
@@ -90,7 +90,7 @@ export const ProjectCards = () => {
     {
       image: <RzalImg />,
       type: "Rzal",
-      title: "Rzal Car Rental Services",
+      title: "Rzal Car Rental",
       desc: "Design & Development of an online rent portal for Rzal, a car rental service based in Nigeria",
       tags: ["Typescript", "NextJS", "Headless WordPress", "TailwindCSS"],
       demoUrl: "https://rzal.vercel.app/",
@@ -99,7 +99,7 @@ export const ProjectCards = () => {
     {
       image: <ExbImg />,
       type: "excellent-bridge",
-      title: "Excellent Bridge Website Redesign",
+      title: "Excellent Bridge Website",
       desc: "Website redesign for ExcellentBridge",
       tags: ["TailwindCSS", "PHP", "Laravel"],
       demoUrl: "https://excellentbridge.com/",
