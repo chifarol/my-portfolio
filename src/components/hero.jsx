@@ -53,15 +53,11 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-            I’m a software developer with over 4 years of experience and I love
-            building stuff for the web. Over the years I’ve garnered great
-            skills with which I deliver a variety of services ranging from
-            Web/UI Design, Front-end/Back-end Development and WordPress
-            Themes/Plugins Development.
+            I’m a software developer with over 4 years of experience and I love building stuff for the web. Although I started out as a front-end developer, over the years I’ve garnered pertinent skills with which I deliver a variety of services ranging from Web/UI Design, Front-end/Back-end Development and WordPress Themes/Plugins Development. I'm open to collaborating on React, Laravel and WordPress projects.
           </p>
         </div>
         <a
-          href="/my-portfolio/ilodigwe-chinaza-tech-cv-2023.pdf"
+          href="/my-portfolio/2024-cv.pdf"
           className="hero-sub-1-resume"
           download
         >
