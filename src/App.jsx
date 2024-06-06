@@ -1,3 +1,5 @@
+/** @format */
+
 import { useState } from "react";
 import React from "react";
 import Header from "./components/header";
@@ -40,7 +42,7 @@ function App() {
       if (percentage > 13) {
         setPCardCounter(14);
       } else {
-        setPCardCounter(percentage+1);
+        setPCardCounter(percentage + 1);
       }
     }, 300);
   }
@@ -63,7 +65,7 @@ function App() {
           </div>
         </div>
         {/* projects */}
-        <div className="section project-section">
+        <div className="section project-section" id="projects">
           <SectionDivider
             title="Projects"
             desc="Some of the projects I’ve worked on"

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "push": "vite build && git add . && git commit -m 'update' && git push && git subtree push --prefix dist origin gh-pages",
+    "push": "vite build && git add . && git commit -m 'update' && git push && git add . && git commit -m 'update' &&git subtree push --prefix dist origin gh-pages",
     "preview": "vite preview"
   },
   "dependencies": {
