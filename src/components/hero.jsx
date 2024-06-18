@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect, useState } from "react";
 import {
   TwitterIcon,
@@ -5,7 +7,7 @@ import {
   WhatsappIcon,
   LinkedInIcon,
   GithubIcon,
-  BehanceIcon
+  BehanceIcon,
 } from "./svgs";
 const titles = [
   "Fullstack Web \n Developer",
@@ -53,7 +55,13 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-            I’m a software developer with over 4 years of experience and I love building stuff for the web. Although I started out as a front-end developer, over the years I’ve garnered pertinent skills with which I deliver a variety of services ranging from Web/UI Design, Front-end/Back-end Development and WordPress Themes/Plugins Development. I'm open to collaborating on React, Laravel and WordPress projects.
+            I’m a software developer with years of experience and I love
+            building stuff for the web. Although I started out as a front-end
+            developer, over the years I’ve garnered pertinent skills with which
+            I deliver a variety of services ranging from Web/UI Design,
+            Front-end/Back-end Development and WordPress Themes/Plugins
+            Development. I'm open to collaborating on React, Laravel and
+            WordPress projects.
           </p>
         </div>
         <a
@@ -82,10 +90,7 @@ const Hero = () => {
           >
             <LinkedInIcon />
           </a>
-          <a
-            href="https://www.behance.net/ilodigwechinaza"
-            target="_blank"
-          >
+          <a href="https://www.behance.net/ilodigwechinaza" target="_blank">
             <BehanceIcon />
           </a>
         </div>
