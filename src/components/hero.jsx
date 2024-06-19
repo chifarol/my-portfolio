@@ -55,13 +55,13 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-            I’m a software developer with years of experience and I love
-            building stuff for the web. Although I started out as a front-end
-            developer, over the years I’ve garnered pertinent skills with which
-            I deliver a variety of services ranging from Web/UI Design,
-            Front-end/Back-end Development and WordPress Themes/Plugins
-            Development. I'm open to collaborating on React, Laravel and
-            WordPress projects.
+            Frontend-focused full stack web developer with years of experience
+            crafting web solutions. Skilled and competent in building innovative
+            tech solutions to address business needs. Leveraging modern
+            technologies to automate and digitize processes and workflows over
+            the web. Adept at meeting the highest standards for web design, user
+            experience and best practices. I'm open to collaborating on React,
+            Laravel and WordPress projects.
           </p>
         </div>
         <a
