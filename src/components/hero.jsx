@@ -57,11 +57,9 @@ const Hero = () => {
           <p className="hero-sub-1-desc type5">
             Frontend-focused full stack web developer with years of experience
             crafting web solutions. Skilled and competent in building innovative
-            tech solutions to address business needs. Leveraging modern
-            technologies to automate and digitize processes and workflows over
-            the web. Adept at meeting the highest standards for web design, user
-            experience and best practices. I'm open to collaborating on React,
-            Laravel and WordPress projects.
+            tech solutions to address business needs, leveraging modern
+            technologies to digitize processes and workflows over the web. I'm
+            open to collaborating on React, Laravel and WordPress projects.
           </p>
         </div>
         <a
