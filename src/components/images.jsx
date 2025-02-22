@@ -1,6 +1,9 @@
 import React from "react";
 
 
+export const MichfrancyImg = () => (
+  <img src="/my-portfolio/michfrancy.webp" alt="propfirm screenshot" />
+);
 export const PropfirmImg = () => (
   <img src="/my-portfolio/propfirm.webp" alt="propfirm screenshot" />
 );

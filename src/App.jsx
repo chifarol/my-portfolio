@@ -6,7 +6,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import SectionDivider from "./components/section-divider";
 import ServiceCards from "./components/service";
-import ProjectCards from "./components/projects";
+import ProjectCards, { projects } from "./components/projects";
 import Stacks from "./components/stacks";
 import Clients from "./components/clients";
 import Footer from "./components/footer";
@@ -37,10 +37,10 @@ function App() {
   function pCounterHandler(e) {
     const width = e.target.scrollWidth - e.target.clientWidth;
     const position = e.target.scrollLeft;
-    const percentage = Math.floor((position / width) * 14);
+    const percentage = Math.floor((position / width) * projects.length);
     setTimeout(() => {
-      if (percentage > 13) {
-        setPCardCounter(14);
+      if (percentage > projects.length - 0.5) {
+        setPCardCounter(projects.length);
       } else {
         setPCardCounter(percentage + 1);
       }
@@ -72,7 +72,9 @@ function App() {
           />
           <div className="project-container">
             <div className="card-counter">
-              <p>{pCardCounter}/14</p>
+              <p>
+                {pCardCounter}/{projects.length}
+              </p>
             </div>
             <div className="project-card-container" onScroll={pCounterHandler}>
               <ProjectCards />
