@@ -1,5 +1,12 @@
 import React from "react";
-import { DesignIcon, CodeIcon, DatabaseIcon, ChartIcon, WPIcon } from "./svgs";
+import {
+  DesignIcon,
+  CodeIcon,
+  DatabaseIcon,
+  ChartIcon,
+  WPIcon,
+  PhoneIcon,
+} from "./svgs";
 
 const ServiceCard = ({ type, title, desc }) => {
   return (
@@ -9,6 +16,8 @@ const ServiceCard = ({ type, title, desc }) => {
           <DesignIcon />
         ) : type == "frontend" ? (
           <CodeIcon />
+        ) : type == "mobile" ? (
+          <PhoneIcon />
         ) : type == "backend" ? (
           <DatabaseIcon />
         ) : type == "seo" ? (
@@ -33,7 +42,12 @@ export const ServiceCards = () => {
       <ServiceCard
         type="frontend"
         title="Front-End Development"
-        desc="Build interactive UI from designs while optimizing for performance. Integrate Backend APIs"
+        desc="Develop interactive user interface from design mockups while optimizing for performance. Integrate Backend APIs"
+      />
+      <ServiceCard
+        type="mobile"
+        title="Mobile App Development"
+        desc="Develop interactive and cross-platform mobile apps (Android & iOS)."
       />
       <ServiceCard
         type="backend"
@@ -45,11 +59,11 @@ export const ServiceCards = () => {
         title="Wordpress Development"
         desc="Develop modern WordPress Themes and Plugins. Deploy Wordpress Site"
       />
-      <ServiceCard
+      {/* <ServiceCard
         type="seo"
         title="SEO Optimizations"
         desc="Applying best SEO practices in code so your website enjoys high search ranking"
-      />
+      /> */}
     </>
   );
 };
