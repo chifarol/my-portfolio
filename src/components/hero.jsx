@@ -10,8 +10,9 @@ import {
   BehanceIcon,
 } from "./svgs";
 const titles = [
-  "Fullstack Web \n Developer",
+  "Fullstack \n Developer",
   "Front-End \n Developer",
+  "Mobile App \n Developer",
   "Back-End \n Developer",
   "UI \n Designer",
 ];
@@ -55,11 +56,10 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-            Frontend-focused full stack web developer with years of experience
-            crafting web solutions. Skilled and competent in building innovative
-            tech solutions to address business needs, leveraging modern
-            technologies to digitize processes and workflows over the web. I'm
-            open to collaborating on React, Laravel and WordPress projects.
+            Frontend-focused full stack developer with years of experience
+            crafting web && mobile app solutions. Skilled and competent in
+            building innovative tech solutions to address business needs,
+            leveraging modern technologies to digitize processes and workflows.
           </p>
         </div>
         <a
