@@ -59,8 +59,28 @@ import {
   NimiMiniImg,
   PropfirmImg,
   MichfrancyImg,
+  ModuverseImg,
+  ProviderImg,
 } from "./images";
 export const projects = [
+  {
+    image: <ModuverseImg />,
+    type: "ModuverseImg",
+    title: "Web3 Blog & Community",
+    desc: "Development of a custom SEO optimized blog for Moduverse - a web3 community",
+    tags: ["NextJS", "Laravel", "Tailwindcss"],
+    demoUrl: "https://moduverse.co/",
+    codeUrl: "",
+  },
+  {
+    image: <ProviderImg />,
+    type: "ProviderImg",
+    title: "Bills payment App",
+    desc: "Design & Development of a mobile app for online bills payment, virtual dollar card services and more",
+    tags: ["React-Native", "Laravel", "Tailwindcss"],
+    demoUrl: "https://provider.ng/",
+    codeUrl: "",
+  },
   {
     image: <MichfrancyImg />,
     type: "PropfirmImg",
@@ -88,15 +108,15 @@ export const projects = [
     demoUrl: "https://nimimini.com/",
     codeUrl: "",
   },
-  {
-    image: <GoodChoirImg />,
-    type: "GoodChoirImg",
-    title: "GoodChoir Official Website",
-    desc: "Design & Development of the official website for the GoodChoir + Admin Dashboard",
-    tags: ["TailwindCSS", "PHP"],
-    demoUrl: "https://goodchoir.com/",
-    codeUrl: "",
-  },
+  // {
+  //   image: <GoodChoirImg />,
+  //   type: "GoodChoirImg",
+  //   title: "GoodChoir Official Website",
+  //   desc: "Design & Development of the official website for the GoodChoir + Admin Dashboard",
+  //   tags: ["TailwindCSS", "PHP"],
+  //   demoUrl: "https://goodchoir.com/",
+  //   codeUrl: "",
+  // },
   {
     image: <RzalImg />,
     type: "Rzal",

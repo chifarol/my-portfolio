@@ -11,17 +11,17 @@ import {
 } from "./svgs";
 
 const stackArray = [
+  "PHP",
+  "ReactJS",
+  "Javascript",
+  "NextJS",
+  "Wordpress",
+  "Typescript",
   "HTML",
   "CSS",
-  "Tailwindcss",
-  "Javascript",
+  "TailwindCss",
   "NodeJS",
-  "Typescript",
-  "NextJS",
-  "ReactJS",
-  "PHP",
-  "Wordpress",
-  "Django",
+  // "Django",
 ];
 const Stack = ({ type }) => {
   return (
@@ -34,27 +34,36 @@ const Stack = ({ type }) => {
         <JSIcon />
       ) : type == "NodeJS" ? (
         <NodeJsIcon />
-      )
-        : type == "ReactJS" ? (
-          <ReactIcon />
-        )
-          : type == "NextJS" ? (
-            <img src="next-js-icon.webp" height="24px" width="24px" style={{ width: '24px', height: '24px' }} />
-          )
-            : type == "Typescript" ? (
-              <img src="typescript-icon.webp" height="24px" width="24px" style={{ width: '24px', height: '24px' }} />
-            )
-              : type == "Tailwindcss" ? (
-                <img src="tailwind-icon.svg" height="24px" width="24px" style={{ width: '24px', height: '24px' }} />
-              )
-                : type == "PHP" ? (
-                  <PHPIcon />
-                )
-                  : type == "Wordpress" ? (
-                    <WPIcon />
-                  ) : (
-                    <DjangoIcon />
-                  )}
+      ) : type == "ReactJS" ? (
+        <ReactIcon />
+      ) : type == "NextJS" ? (
+        <img
+          src="next-js-icon.webp"
+          height="24px"
+          width="24px"
+          style={{ width: "24px", height: "24px" }}
+        />
+      ) : type == "Typescript" ? (
+        <img
+          src="typescript-icon.webp"
+          height="24px"
+          width="24px"
+          style={{ width: "24px", height: "24px" }}
+        />
+      ) : type == "Tailwindcss" ? (
+        <img
+          src="tailwind-icon.svg"
+          height="24px"
+          width="24px"
+          style={{ width: "24px", height: "24px" }}
+        />
+      ) : type == "PHP" ? (
+        <PHPIcon />
+      ) : type == "Wordpress" ? (
+        <WPIcon />
+      ) : (
+        <DjangoIcon />
+      )}
       <span className="stack-title">{type}</span>
     </div>
   );
