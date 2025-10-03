@@ -61,8 +61,18 @@ import {
   MichfrancyImg,
   ModuverseImg,
   ProviderImg,
+  EventscoutaImg,
 } from "./images";
 export const projects = [
+  {
+    image: <EventscoutaImg />,
+    type: "EventscoutaImg",
+    title: "EventScouta",
+    desc: "Design & Development of a platform to find, publish events and sell tickets",
+    tags: ["NextJS", "Laravel", "Tailwindcss"],
+    demoUrl: "https://eventscouta.com/",
+    codeUrl: "",
+  },
   {
     image: <ModuverseImg />,
     type: "ModuverseImg",

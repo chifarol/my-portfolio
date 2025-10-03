@@ -1,5 +1,8 @@
 import React from "react";
 
+export const EventscoutaImg = () => (
+  <img src="/my-portfolio/eventscouta.webp" alt="eventscouta screenshot" />
+);
 export const MichfrancyImg = () => (
   <img src="/my-portfolio/michfrancy.webp" alt="michfrancy screenshot" />
 );
