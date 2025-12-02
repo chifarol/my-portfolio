@@ -70,7 +70,7 @@ const Hero = () => {
           Download Resume
         </a>
         <div className="hero-sub-1-icons">
-          <a href="http://twitter.com/ilodigwechinaza" target="_blank">
+          <a href="https://twitter.com/kvngzaza_" target="_blank">
             <TwitterIcon />
           </a>
           <a href="https://github.com/chifarol" target="_blank">
