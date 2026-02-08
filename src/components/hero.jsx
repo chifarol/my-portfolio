@@ -56,10 +56,10 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-            Frontend-focused full stack developer with years of experience
-            crafting web & mobile app solutions. Skilled and competent in
-            building innovative tech solutions to address business needs,
-            leveraging modern technologies to digitize processes and workflows.
+            Full stack developer with years of experience crafting web & mobile
+            app solutions. Skilled and competent in building innovative tech
+            solutions to address business needs, leveraging modern technologies
+            to digitize processes and workflows.
           </p>
         </div>
         <a
