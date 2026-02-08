@@ -63,7 +63,7 @@ const Hero = () => {
           </p>
         </div>
         <a
-          href="/my-portfolio/2024-cv.pdf"
+          href="/my-portfolio/2025-cv-optimized.pdf"
           className="hero-sub-1-resume"
           download
         >
