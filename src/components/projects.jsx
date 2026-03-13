@@ -65,6 +65,15 @@ import {
 } from "./images";
 export const projects = [
   {
+    image: <InautonomyImg />,
+    type: "InautonomyImg",
+    title: "In Autonomy",
+    desc: "Design & Development of a blog platform for In Autonomy - a futuristic tech blog",
+    tags: ["NextJS", "Laravel", "Tailwindcss"],
+    demoUrl: "https://inautonomy.com/",
+    codeUrl: "",
+  },
+  {
     image: <EventscoutaImg />,
     type: "EventscoutaImg",
     title: "EventScouta",

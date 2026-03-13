@@ -1,45 +1,45 @@
 import React from "react";
 
+export const InautonomyImg = () => (
+  <img src="/my-portfolio/inautonomy.webp" alt="inautonomy.com screenshot" />
+);
 export const EventscoutaImg = () => (
-  <img src="/my-portfolio/eventscouta.webp" alt="eventscouta screenshot" />
+  <img src="/my-portfolio/eventscouta.webp" alt="eventscouta.com screenshot" />
 );
 export const MichfrancyImg = () => (
-  <img src="/my-portfolio/michfrancy.webp" alt="michfrancy screenshot" />
+  <img src="/my-portfolio/michfrancy.webp" alt="michfrancy.com screenshot" />
 );
 export const ProviderImg = () => (
-  <img src="/my-portfolio/provider.webp" alt="provider screenshot" />
+  <img src="/my-portfolio/provider.webp" alt="provider.ng screenshot" />
 );
 export const ModuverseImg = () => (
-  <img src="/my-portfolio/moduverse.webp" alt="moduverse screenshot" />
+  <img src="/my-portfolio/moduverse.webp" alt="moduverse.co screenshot" />
 );
 export const PropfirmImg = () => (
-  <img src="/my-portfolio/propfirm.webp" alt="propfirm screenshot" />
+  <img
+    src="/my-portfolio/propfirm.webp"
+    alt="propfirm.xplicitmode.com screenshot"
+  />
 );
 export const NimiMiniImg = () => (
-  <img src="/my-portfolio/nimimini.webp" alt="nimimini screenshot" />
+  <img src="/my-portfolio/nimimini.webp" alt="nimimini.com screenshot" />
 );
 export const LoycyImg = () => (
   <img
     src="/my-portfolio/loycy-engineering.webp"
-    alt="loycy-engineering screenshot"
+    alt="loycy-engineering.vercel.app screenshot"
   />
 );
 export const GoodChoirImg = () => (
-  <img
-    src="/my-portfolio/goodchoir.webp"
-    alt="Excellent bridge website screenshot"
-  />
+  <img src="/my-portfolio/goodchoir.webp" alt="goodchoir.com screenshot" />
 );
 export const RzalImg = () => (
-  <img
-    src="/my-portfolio/rzal.webp"
-    alt="Excellent bridge website screenshot"
-  />
+  <img src="/my-portfolio/rzal.webp" alt="rzal.vercel.app screenshot" />
 );
 export const ExbImg = () => (
   <img
     src="/my-portfolio/excellent-bridge-website-screenshot.webp"
-    alt="Excellent bridge website screenshot"
+    alt="excellentbridge.com screenshot"
   />
 );
 export const QuickrpayImg = () => (
