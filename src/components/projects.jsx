@@ -62,6 +62,7 @@ import {
   ModuverseImg,
   ProviderImg,
   EventscoutaImg,
+  InautonomyImg,
 } from "./images";
 export const projects = [
   {
