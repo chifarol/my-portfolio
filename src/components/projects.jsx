@@ -63,8 +63,18 @@ import {
   ProviderImg,
   EventscoutaImg,
   InautonomyImg,
+  ExamHallImg,
 } from "./images";
 export const projects = [
+  {
+    image: <ExamHallImg />,
+    type: "examhall",
+    title: "ExamHall",
+    desc: "AI-Powered Exam Management & Preparation Platform for Institutions & Students",
+    tags: ["ReactJS", "NextJS", "Laravel", "Tailwindcss"],
+    demoUrl: "https://examhall.net/",
+    codeUrl: "",
+  },
   {
     image: <InautonomyImg />,
     type: "InautonomyImg",

@@ -1,5 +1,8 @@
 import React from "react";
 
+export const ExamHallImg = () => (
+  <img src="/my-portfolio/examhall.png" alt="examhall.net screenshot" />
+);
 export const InautonomyImg = () => (
   <img src="/my-portfolio/inautonomy.webp" alt="inautonomy.com screenshot" />
 );
