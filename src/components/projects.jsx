@@ -64,6 +64,7 @@ import {
   EventscoutaImg,
   InautonomyImg,
   ExamHallImg,
+  ClickToReadChromeExtensionImg,
 } from "./images";
 export const projects = [
   {
@@ -91,6 +92,16 @@ export const projects = [
     desc: "Design & Development of an online e-commerce store for beauty products",
     tags: ["NextJS", "Laravel", "Tailwindcss"],
     demoUrl: "https://michyandfrancy.com/",
+    codeUrl: "",
+  },
+  {
+    image: <ClickToReadChromeExtensionImg />,
+    type: "ClickToReadChromeExtensionImg",
+    title: "Click To Read Aloud (Chrome Extension)",
+    desc: "A highly customizable and user-friendly chrome extension that reads aloud the content of a webpage",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    demoUrl:
+      "https://chromewebstore.google.com/detail/ibgbmencncgodiobdlfdmmpehecfkena?utm_source=item-share-cb",
     codeUrl: "",
   },
   // {

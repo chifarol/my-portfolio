@@ -1,5 +1,11 @@
 import React from "react";
 
+export const ClickToReadChromeExtensionImg = () => (
+  <img
+    src="https://lh3.googleusercontent.com/cQXd5LOnD7c4PapS74UnWU5Ro87-haCxTM73GmquKuT2cbJpLzq4dWsstVUi67M7ktSk9g-Erdp55K5ED7MRbyoOnw=s1280-w1280-h800"
+    alt="click to read aloud Chrome Extension screenshot"
+  />
+);
 export const ExamHallImg = () => (
   <img src="/my-portfolio/examhall.png" alt="examhall.net screenshot" />
 );
